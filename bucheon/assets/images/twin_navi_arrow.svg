@@ -1,0 +1,20 @@
+<svg id="그룹_173593" data-name="그룹 173593" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <filter id="패스_85713">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#27d4ff" flood-opacity="0.2" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="사각형_35074" data-name="사각형 35074" width="16" height="16" fill="none"/>
+  <g data-type="innerShadowGroup">
+    <path id="패스_85713-2" data-name="패스 85713" d="M3.708,10.171,7.416,0,3.708,2.543,0,0Z" transform="translate(11.906 12.47) rotate(180)" fill="rgba(39,212,255,0.2)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#패스_85713)">
+      <path id="패스_85713-3" data-name="패스 85713" d="M3.708,10.171,7.416,0,3.708,2.543,0,0Z" transform="translate(11.91 12.47) rotate(180)" fill="#fff"/>
+    </g>
+    <path id="패스_85713-4" data-name="패스 85713" d="M3.708,10.171,7.416,0,3.708,2.543,0,0Z" transform="translate(11.906 12.47) rotate(180)" fill="none" stroke="#27d4ff" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

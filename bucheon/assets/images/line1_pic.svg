@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_35133" data-name="사각형 35133" width="15" height="15" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="map_basic" transform="translate(-3983 14593)" opacity="0.4">
+    <g id="그룹_166643" data-name="그룹 166643" transform="translate(2115 -14683)">
+      <g id="그룹_166393" data-name="그룹 166393" transform="translate(-797 14100)">
+        <g id="icon" transform="translate(2665 -14010)">
+          <rect id="container" width="20" height="20" fill="none"/>
+          <g id="그룹_164503" data-name="그룹 164503" transform="translate(2.499 2.5)">
+            <g id="그룹_164498" data-name="그룹 164498" clip-path="url(#clip-path)">
+              <line id="선_117" data-name="선 117" y1="3.214" x2="16.793" transform="translate(-0.668 7.574)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+              <line id="선_118" data-name="선 118" x2="2.12" y2="9.531" transform="translate(6.597 -0.54)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+              <line id="선_119" data-name="선 119" x1="1.342" y1="5.516" transform="translate(3.914 9.911)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+            </g>
+            <g id="사각형_35134" data-name="사각형 35134" transform="translate(0.001)" fill="none" stroke="#fff" stroke-width="1">
+              <rect width="15" height="15" rx="2" stroke="none"/>
+              <rect x="0.5" y="0.5" width="14" height="14" rx="1.5" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg data-name="그룹 166124" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="e6ylwpn72a" x1=".015" y1=".5" x2=".999" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1a2230"/>
+            <stop offset=".087" stop-color="#3c4d68"/>
+            <stop offset=".214" stop-color="#1f2b3e"/>
+            <stop offset=".763" stop-color="#1f2b3e"/>
+            <stop offset=".907" stop-color="#384862"/>
+            <stop offset="1" stop-color="#1f2b3e"/>
+        </linearGradient>
+        <linearGradient id="f4vbfxemgb" x1=".5" y1=".965" x2=".5" y2=".066" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#243044"/>
+            <stop offset="1" stop-color="#3d506f"/>
+        </linearGradient>
+        <linearGradient id="qiic69evcc" x1=".5" y1=".965" x2=".5" y2=".066" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#071522"/>
+            <stop offset="1" stop-color="#3d506f"/>
+        </linearGradient>
+        <linearGradient id="t42ykjnkje" x1=".002" y1=".5" x2=".997" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#384c69"/>
+            <stop offset=".067" stop-color="#7e9cce"/>
+            <stop offset=".151" stop-color="#425b7e"/>
+            <stop offset=".855" stop-color="#425b7e"/>
+            <stop offset=".943" stop-color="#7e9cce"/>
+            <stop offset="1" stop-color="#384c69"/>
+        </linearGradient>
+        <radialGradient id="pwlr3ms61d" cx=".5" cy=".5" r="1.345" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#27d4ff"/>
+            <stop offset="1" stop-color="#464646"/>
+        </radialGradient>
+    </defs>
+    <path data-name="사각형 36695" style="fill:none" d="M0 0h64v64H0z"/>
+    <g data-name="Layer 1" transform="translate(2.1 1.977)">
+        <path data-name="패스 86573" d="M6.316 0h47.356c3.488 0 6.316 3.627 6.316 8.1v43.8c0 4.474-2.828 8.1-6.316 8.1H6.316C2.828 60 0 56.373 0 51.9V8.1C0 3.627 2.828 0 6.316 0z" style="fill:url(#e6ylwpn72a)"/>
+        <path data-name="패스 86583" d="M6.316 0h47.356c3.488 0 6.316 3.63 6.316 8.108v43.834c0 4.478-2.828 8.108-6.316 8.108H6.316C2.828 60.05 0 56.42 0 51.942V8.108C0 3.63 2.828 0 6.316 0z" transform="translate(.012 .001)" style="fill:url(#e6ylwpn72a)"/>
+        <path data-name="패스 86574" d="M6.316 0h47.356a6.289 6.289 0 0 1 6.316 6.262v33.853a6.289 6.289 0 0 1-6.316 6.262H6.316A6.289 6.289 0 0 1 0 40.115V6.262A6.289 6.289 0 0 1 6.316 0z" transform="translate(.012)" style="fill:url(#f4vbfxemgb)"/>
+        <path data-name="패스 86582" d="M6.316 0h47.356a6.289 6.289 0 0 1 6.316 6.262v33.853a6.289 6.289 0 0 1-6.316 6.262H6.316A6.289 6.289 0 0 1 0 40.115V6.262A6.289 6.289 0 0 1 6.316 0z" style="opacity:.18;fill:url(#qiic69evcc)"/>
+        <circle data-name="타원 3684" cx="2.5" cy="2.5" r="2.5" transform="translate(40.37 52)" style="fill:url(#pwlr3ms61d)"/>
+        <circle data-name="타원 3696" cx="2.5" cy="2.5" r="2.5" transform="translate(47.37 52)" style="fill:url(#pwlr3ms61d)"/>
+        <g data-name="그룹 166081">
+            <path data-name="패스 86520" d="M523.161 739.928h-43.41c-4.581 0-8.295-4.593-8.295-8.7v2.685c0 4.112 3.714 7.446 8.295 7.446h43.41c4.581 0 8.3-3.334 8.3-7.446v-2.685c-.005 4.107-3.719 8.7-8.3 8.7z" transform="translate(-471.456 -693.782)" style="fill:url(#t42ykjnkje)"/>
+        </g>
+    </g>
+</svg>
