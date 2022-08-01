@@ -1,0 +1,1358 @@
+//Button
+button.disable {
+    opacity: 0.5 !important;
+    cursor: not-allowed;
+}
+
+
+//Icons
+.cct {
+    @include sign_ic56;
+    cursor: pointer;
+
+    &.vms {
+        background: url('../images/cct_vms_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.light {
+        background: url('../images/cct_light_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.bit {
+        background: url('../images/cct_bit_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.taxi {
+        background: url('../images/cct_taxi_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.rader {
+        background: url('../images/cct_rader_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.vds {
+        background: url('../images/cct_vds_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.illegal {
+        background: url('../images/cct_illegal_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.edge {
+        background: url('../images/cct_edge_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.old {
+        background: url('../images/cct_old_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.dsrc {
+        background: url('../images/cct_dsrc_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.signal {
+        background: url('../images/cct_signal_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.attent {
+        background: url('../images/cct_attent_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.srch {
+        background: url('../images/cct_srch_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.camera {
+        background: url('../images/cct_camera_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.pms {
+        background: url('../images/cct_pms_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.machine {
+        background: url('../images/cct_machine_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.loof {
+        background: url('../images/cct_loof_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.observe {
+        background: url('../images/cct_observe_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.air {
+        background: url('../images/cct_air_gray.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.road_bus {
+    @include sign_ic56;
+
+    &.str {
+        background: url('../images/mark_bus_str.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.seat {
+        background: url('../images/mark_bus_seat.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.norm {
+        background: url('../images/mark_bus_norm.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.low {
+        background: url('../images/mark_bus_low.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.vill {
+        background: url('../images/mark_bus_vill.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.sign_bus {
+    @include sign_ic64;
+
+    &.str {
+        background: url('../images/mark_bus_str.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/mark_bus_str_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.seat {
+        background: url('../images/mark_bus_seat.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/mark_bus_seat_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.norm {
+        background: url('../images/mark_bus_norm.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/mark_bus_norm_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.low {
+        background: url('../images/mark_bus_low.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/mark_bus_low_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.vill {
+        background: url('../images/mark_bus_vill.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/mark_bus_vill_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.stop {
+        width: 64px;
+        height: 76px;
+        background: url('../images/mark_bus_stop.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 108px;
+            background: url('../images/mark_bus_stop_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_cct {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_bit_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_bit_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_bit_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_bit_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_vms {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_vms_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_vms_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_vms_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_vms_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_camera {
+    @include sign_ic64;
+
+    &.rot50 {
+        transform: rotate(50deg);
+    }
+
+    &.rot90 {
+        transform: rotate(90deg);
+    }
+
+    &.rot180 {
+        transform: rotate(180deg);
+    }
+
+    &.rot270 {
+        transform: rotate(270deg);
+    }
+
+    &.blue {
+        background: url('../images/cct_camera_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_camera_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_camera_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_camera_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_see {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_see_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_see_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_see_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_see_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_cctv {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_cctv_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_cctv_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_cctv_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_cctv_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_box {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_box_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_box_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_box_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_box_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_rader {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_rader_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_rader_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_rader_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_rader_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_swing {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_swing_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_swing_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_swing_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_swing_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_srch {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_srch_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_srch_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_srch_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_srch_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_cctv_right {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_cctvr_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_cctvr_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_cctvr_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_cctvr_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_edge {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_edge_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_edge_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_edge_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_edge_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_dsrc {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_dsrc_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_dsrc_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_dsrc_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_dsrc_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_attent {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_attent_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_attent_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_attent_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_attent_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_light {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_light_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_light_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_light_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_light_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_machine {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_machine_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_machine_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_machine_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_machine_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_pms {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_pms_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_pms_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_pms_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_pms_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_loof {
+    @include sign_ic64;
+
+    &.blue {
+        background: url('../images/cct_loof_blue.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_loof_blue_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.red {
+        background: url('../images/cct_loof_red.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 96px;
+            height: 96px;
+            background: url('../images/cct_loof_red_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_tri2 {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+
+    &.jam {
+        background: url('../images/sign_jam32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.acc {
+        background: url('../images/sign_acc32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.weath {
+        background: url('../images/sign_weath32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.corp {
+        background: url('../images/sign_corp32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.event {
+        background: url('../images/sign_event32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.attent {
+        background: url('../images/sign_attent32.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.sign_tri1 {
+    display: inline-block;
+    width: 80px;
+    height: 64px;
+    cursor: pointer;
+
+    &.jam {
+        background: url('../images/sign_jam40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_jam40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.acc {
+        background: url('../images/sign_acc40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_acc40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.corp {
+        background: url('../images/sign_corp40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_corp40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.event {
+        background: url('../images/sign_event40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_event40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.weath {
+        background: url('../images/sign_weath40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_weath40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.attent {
+        background: url('../images/sign_attent40.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 104px;
+            height: 92px;
+            background: url('../images/sign_attent40_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.see_park {
+    @include sign_ic64;
+
+    &.safe {
+        background: url('../images/mark_park_safe.svg') no-repeat center center;
+        background-size: contain;
+
+        &.stop {
+            width: 64px;
+            height: 76px;
+            background: url('../images/mark_park_safe_stop.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.normal {
+        background: url('../images/mark_park_normal.svg') no-repeat center center;
+        background-size: contain;
+
+        &.stop {
+            width: 64px;
+            height: 76px;
+            background: url('../images/mark_park_normal_stop.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.danger {
+        background: url('../images/mark_park_danger.svg') no-repeat center center;
+        background-size: contain;
+
+        &.stop {
+            width: 64px;
+            height: 76px;
+            background: url('../images/mark_park_danger_stop.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.noinfo {
+        background: url('../images/mark_park_noinfo.svg') no-repeat center center;
+        background-size: contain;
+
+        &.stop {
+            width: 64px;
+            height: 76px;
+            background: url('../images/mark_park_noinfo_stop.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.park_sign {
+    @include dflx_ac_jcent;
+    width: 148px;
+    height: 56px;
+    overflow: hidden;
+    padding: 0px 4px 10px 38px;
+    text-align: right;
+    cursor: pointer;
+
+    .park_txt {
+        @include fsl12;
+        @include fm_robo;
+        display: block;
+        overflow: hidden;
+    }
+
+    &.normal {
+        background: url('../images/park_normal.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 180px;
+            height: 88px;
+            background: url('../images/park_normal_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.danger {
+        background: url('../images/park_danger.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 180px;
+            height: 88px;
+            background: url('../images/park_danger_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.safe {
+        background: url('../images/park_safe.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 180px;
+            height: 88px;
+            background: url('../images/park_safe_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    &.noinfo {
+        background: url('../images/park_noinfo.svg') no-repeat center center;
+        background-size: contain;
+
+        &.on {
+            width: 180px;
+            height: 88px;
+            background: url('../images/park_noinfo_on.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.sign_observe {
+    display: inline-block;
+    width: 64px;
+    height: 76px;
+    background: url('../images/mark_observe.svg') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 96px;
+        height: 108px;
+        background: url('../images/mark_observe_on.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.sign_air {
+    display: inline-block;
+    width: 64px;
+    height: 76px;
+    background: url('../images/mark_air.svg') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 96px;
+        height: 108px;
+        background: url('../images/mark_air_on.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_emer_space {
+    @include dflx_ac_jcent;
+    width: 70px;
+    height: 143px;
+}
+
+.car_emer {
+    width: 50px;
+    height: 113px;
+    background: url(../images/car_emergency.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 70px;
+        height: 143px;
+        background: url(../images/car_emergency_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_ill_space {
+    @include dflx_ac_jcent;
+    width: 72px;
+    height: 131px;
+}
+
+.car_illegal {
+    width: 51px;
+    height: 101px;
+    background: url(../images/car_illegal.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 72px;
+        height: 131px;
+        background: url(../images/car_illegal_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_self_space {
+    @include dflx_ac_jcent;
+    width: 72px;
+    height: 132px;
+}
+
+.car_self {
+    width: 51px;
+    height: 101px;
+    background: url(../images/car_self.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 72px;
+        height: 132px;
+        background: url(../images/car_self_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_taxi_space {
+    @include dflx_ac_jcent;
+    width: 72px;
+    height: 132px;
+}
+
+.car_taxi {
+    width: 51px;
+    height: 101px;
+    background: url(../images/car_taxi.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 72px;
+        height: 132px;
+        background: url(../images/car_taxi_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_truck_space {
+    @include dflx_ac_jcent;
+    width: 75px;
+    height: 145px;
+}
+
+.car_truck {
+    width: 50px;
+    height: 115px;
+    background: url(../images/car_truck.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 75px;
+        height: 145px;
+        background: url(../images/car_truck_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_city_space {
+    @include dflx_ac_jcent;
+    width: 72px;
+    height: 132px;
+}
+
+.car_city {
+    width: 51px;
+    height: 101px;
+    background: url(../images/car_city.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 72px;
+        height: 132px;
+        background: url(../images/car_city_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_corp_space {
+    @include dflx_ac_jcent;
+    width: 79px;
+    height: 163px;
+}
+
+.car_corp {
+    width: 50px;
+    height: 132px;
+    background: url(../images/car_corp.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 79px;
+        height: 163px;
+        background: url(../images/car_corp_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_cop_space {
+    @include dflx_ac_jcent;
+    width: 72px;
+    height: 132px;
+}
+
+.car_cop {
+    width: 51px;
+    height: 101px;
+    background: url(../images/car_cop.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 72px;
+        height: 132px;
+        background: url(../images/car_cop_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.car_fire_space {
+    @include dflx_ac_jcent;
+    width: 79px;
+    height: 177px;
+}
+
+.car_fire {
+    width: 50px;
+    height: 146px;
+    background: url(../images/car_fire.svg) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+
+    &.on {
+        width: 79px;
+        height: 177px;
+        background: url(../images/car_fire_on.svg) no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.weath_mark32 {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+
+    &.sun {
+        background: url('../images/wt_sun32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.midd_sun {
+        background: url('../images/wt_midd_sun32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.little_sun {
+        background: url('../images/wt_litt_sun32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.cloud {
+        background: url('../images/wt_cloud32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.thunder {
+        background: url('../images/wt_thunder32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.moon {
+        background: url('../images/wt_moon32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.little_moon {
+        background: url('../images/wt_litt_moon32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.midd_moon {
+        background: url('../images/wt_midd_moon32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.rain {
+        background: url('../images/wt_rain32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.snow1 {
+        background: url('../images/wt_1snow32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.snow2 {
+        background: url('../images/wt_2snow32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.midd_rain {
+        background: url('../images/wt_midd_rain32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.midd_snow {
+        background: url('../images/wt_midd_snow32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.all1 {
+        background: url('../images/wt_1all32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.all2 {
+        background: url('../images/wt_2all32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.dash {
+        background: url('../images/wt_dash32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.twoline {
+        background: url('../images/wt_twoline32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.thline {
+        background: url('../images/wt_thline32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.wave {
+        background: url('../images/wt_wave32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.umb {
+        background: url('../images/wt_umb32.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.ice {
+        background: url('../images/wt_ice32.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.weath_mark42 {
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+
+    &.sun {
+        background: url('../images/wt_sun32.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.weath_mark56 {
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+
+    &.sun {
+        background: url('../images/wt_sun32.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.line1 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+    &.pic {
+        background: url('../images/line1_pic.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.plane {
+        background: url('../images/line1_plane.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.mount {
+        background: url('../images/line1_mount.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.data {
+        background: url('../images/line1_data.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.line2 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+    &.pic {
+        background: url('../images/line2_pic.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.plane {
+        background: url('../images/line2_plane.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.mount {
+        background: url('../images/line2_mount.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+    &.data {
+        background: url('../images/line2_data.svg') no-repeat center center;
+        background-size: contain;
+    }
+}
+
+.srch16 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('../images/srch_wh16.svg') no-repeat center center;
+    background-size: contain;
+}
+
+.img_arrow {
+    width: 40px;
+    height: 40px;
+}
