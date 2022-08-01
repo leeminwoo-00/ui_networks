@@ -1,0 +1,293 @@
+$bbg0: #0f173d;
+$bbg1: #040A1A;
+$bbg2: #16225c;
+$colfff: #fff;
+$col27d: #27d4ff;
+$col000: #000;
+$col333: #333;
+$fs12: 12px;
+$fs13: 13px;
+$fs14: 14px;
+$fs15: 15px;
+$fs16: 16px;
+$fs18: 28px;
+
+//position
+@mixin tal {
+    text-align: left !important;
+}
+
+@mixin tac {
+    text-align: center !important;
+}
+
+@mixin tar {
+    text-align: right !important;
+}
+
+@mixin dpblock {
+    display: block !important;
+}
+
+@mixin dpinblock {
+    display: inline-block !important;
+}
+
+@mixin dpinline {
+    display: inline !important;
+}
+
+@mixin dflx {
+    display: flex !important;
+}
+
+@mixin fleft {
+    float: left !important;
+}
+
+@mixin fright {
+    float: right !important;
+}
+
+@mixin bold {
+    font-weight: bold !important;
+}
+
+@mixin clear {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+//flex
+@mixin dflx_as {
+    display: flex;
+    align-items: flex-start;
+}
+
+@mixin dflx_ac {
+    display: flex;
+    align-items: center;
+}
+
+@mixin dflx_ae {
+    display: flex;
+    align-items: flex-end;
+}
+
+@mixin dflx_jbet {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin dflx_jcent {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin dflx_ac_jcent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin dflx_ac_jbet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin dflx_ae_jbet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@mixin dflx_ac_jend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin dflx_ae_jend {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@mixin flx_wrap {
+    flex-wrap: wrap;
+}
+
+//font
+@mixin fm_robo {
+    font-family: "Roboto", sans-serif;
+}
+
+@mixin fm_spoqa {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+@mixin fsl11 {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+@mixin fsl12 {
+    font-size: 0.85em;
+    font-weight: 300;
+}
+
+@mixin fsl13 {
+    font-size: 0.93em;
+    font-weight: 300;
+}
+
+@mixin fsl14 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@mixin fsr14 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@mixin fsm14 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+@mixin fsl15 {
+    font-size: 1.07em;
+    font-weight: 300;
+}
+
+@mixin fsr15 {
+    font-size: 1.07em;
+    font-weight: 400;
+}
+
+@mixin fsm15 {
+    font-size: 1.07em;
+    font-weight: 500;
+}
+
+@mixin fsl16 {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+@mixin fsr16 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+@mixin fsm16 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+@mixin fsm20 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@mixin fsb20 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+//title
+@mixin mid_title {
+    color: $col27d;
+    font-size: 1.28em;
+    font-weight: 500;
+}
+
+@mixin mid_title2 {
+    color: $col27d;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+//trans_center
+@mixin ab_trans_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//text_overflow
+@mixin txt_ellip {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+//box
+@mixin box1 {
+    width: 100%;
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(39, 212, 255, 0.4);
+    background-color: rgba(9, 10, 19, 0.4);
+}
+
+//footer
+@mixin pan580 {
+    width: 580px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: none;
+    background-color: rgba(9, 10, 19, 0.95);
+}
+
+//button
+@mixin btn {
+    background-color: #0068e6;
+    background-color: rgba(0, 104, 230, 0.6);
+    box-shadow: 0 0 12px 0 inset #0068e6;
+    border-radius: 6px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+//tod_block
+@mixin tod_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    overflow: hidden;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+//sign
+@mixin sign_ic56 {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #3e475e;
+    border-radius: 100%;
+}
+
+@mixin sign_ic64 {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: #3e475e;
+    border-radius: 100%;
+    cursor: pointer;
+}
