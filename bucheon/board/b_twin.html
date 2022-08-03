@@ -19,12 +19,18 @@
     <div class="wrap">
         <div class="wrap_rel">
             <div class="monitor_body" style="display: block">
-                <div class="monitor_pop pop_digital" style="display: block">
+                <div class="monitor_pop pop_digital twin_popup" style="display: block">
                     <div class="mon_pop_top">
                         <h1>B-트윈</h1>
                         <p class="pop_x"></p>
                     </div>
                     <div class="board b_twin">
+                        <div class="twin_distance_show">
+                            <section class="distance_unit">
+                                <span class="sp_numb">5km</span>
+                                <p class="distance_img"></p>
+                            </section>
+                        </div>
                         <div class="custom_tabpanel twin_bg_map btwin-tab1"></div>
                         <div class="custom_tabpanel twin_bg_map btwin-tab2"></div>
                         <!-- 우측 지도 컨트롤러 -->
@@ -117,13 +123,13 @@
                         <aside class="twin_footer_btn">
                             <div class="dflx_jcent">
                                 <div class="half_block">
-                                    <button class="twin_navi_icon01" type="button">
+                                    <button class="twin_navi_icon01 on" type="button">
                                         소통
                                     </button>
-                                    <button class="twin_navi_icon02" type="button">
+                                    <button class="twin_navi_icon02 on" type="button">
                                         돌발
                                     </button>
-                                    <button class="twin_navi_icon03" type="button">
+                                    <button class="twin_navi_icon03 on" type="button">
                                         긴급
                                     </button>
                                 </div>
@@ -511,8 +517,158 @@
                             </div>
                         </section>
                     </div>
-                </div>
-                <div class="dflx h-100">                   
+
+                    <footer>
+                        <article class="footer_rel">
+                            <div class="foot_left">
+                                <section class="foot_srch">
+                                    <button type="button" class="bt_srch"></button>
+                                    <input type="text" class="foot_put" placeholder="검색">
+                                </section>
+                                <button type="button" class="btn_cross">교차로검색</button>
+                            </div>
+    
+                            <div class="foot_pan_wrap foot_search">
+                                <section class="foot_pan_rel">
+                                    <div class="foot_pan_bg"></div>
+                                    <section class="srch_brd">
+                                        <ul class="srch_ul">
+                                            <li>
+                                                <p class="p_val">부천시(전체)</p>
+                                            </li>
+                                            <li>
+                                                <p class="p_val">부천시청</p>
+                                            </li>
+                                            <li>
+                                                <p class="p_val">부천시청 사거리</p>
+                                            </li>
+                                            <li>
+                                                <p class="p_val">부천역 사거리</p>
+                                            </li>
+                                            <li>
+                                                <p class="p_val">부천사거리</p>
+                                            </li>
+                                            <li>
+                                                <p class="p_val">부천사거리</p>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </section>
+                            </div>
+    
+                            <div class="foot_right">
+                                <section class="foot_combo">                                    
+                                    <div class="combo">
+                                        <p class="combo_mark combo_exam foot_exam"></p>
+                                    </div>
+                                </section>
+                            </div>
+    
+                            <div class="foot_pan_wrap foot_exam">
+                                <div class="set_panel">
+                                    <div class="panel_top">
+                                        <h3 class="pan_title">B-트윈 설정</h3>
+                                        <p class="x20"></p>
+                                    </div>
+                                    <article class="set_tech">
+                                        <div class="set_top">
+                                            <h5 class="tlt">건물</h5>
+                                            <span class="set_arrow"></span>
+                                        </div>
+                                        <div class="set_cont">
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">LOD1</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">LOD4</span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="set_tech">
+                                        <div class="set_top">
+                                            <h5 class="tlt">시설물</h5>
+                                            <span class="set_arrow"></span>
+                                        </div>
+                                        <div class="set_cont">
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">교통 CCTV</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">스마트 CCTV</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">VMS</span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="set_tech">
+                                        <div class="set_top">
+                                            <h5 class="tlt">Mini Map</h5>
+                                            <span class="set_arrow"></span>
+                                        </div>
+                                        <div class="set_cont">
+                                            <div class="set_list">
+                                                <p class="ch_radio on">
+                                                    <span class="radio on"></span>
+                                                    <span class="word">Enable</span>
+                                                </p>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="ch_radio">
+                                                    <span class="radio"></span>
+                                                    <span class="word">disable</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="set_tech">
+                                        <div class="set_top">
+                                            <h5 class="tlt">차량</h5>
+                                            <span class="set_arrow"></span>
+                                        </div>
+                                        <div class="set_cont">
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">미확인</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">세단</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">SUV</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">벤</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">트럭</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">버스</span>
+                                            </div>
+                                            <div class="set_list">
+                                                <p class="chck"></p>
+                                                <span class="word">이륜차</span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <!-- foot_exam -->
+    
+    
+                        </article>
+                    </footer>
                 </div>
             </div>
             <!--monitor_body-->
