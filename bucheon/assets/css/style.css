@@ -9140,21 +9140,21 @@ footer {
 .cctv_list {
     display: flex;
     flex-direction: column;
-    max-height: 890px;
-    min-height: 890px;
+    max-height: 912px;
+    min-height: 912px;
     overflow-y: scroll;
 }
 .cctv_live_block .scroll {
-    min-height: 1388px;
-    max-height: 1388px;
+    min-height: 1410px;
+    max-height: 1410px;
 }
 .vms_live_block.vms_live_block .scroll {    
-    min-height: 846px;
-    max-height: 846px;
+    min-height: 868px;
+    max-height: 868px;
 }
 .btwin-tab2 .cctv_list_block .cctv_list {
-    max-height: 1081px;
-    min-height: 1081px;
+    max-height: 1103px;
+    min-height: 1103px;
 }
 .cctv_list>li {
     display: flex;
@@ -9656,7 +9656,7 @@ footer {
     position: absolute;
     z-index: 9;
     right: 40px;
-    bottom: 20px;
+    bottom: 16px;
     padding: 0 6px;
     background: #00000033 no-repeat padding-box;
 }
